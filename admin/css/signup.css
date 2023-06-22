@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=MonteCarlo&family=Style+Script&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    color:white;
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.wrapper{
+    margin-top:50px;
+    width:400px;
+    border:1px solid black;
+    border-radius:6px;
+    background-color:black;
+    margin-bottom:50px;
+}
+
+.form header{
+    font-size:30px;
+    font-weight: 600;
+    padding-bottom:20px;
+    padding-top:30px;
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+}
+
+.slogan{
+    text-align:center;
+    font-size:15px;
+    padding-left:60px;
+    padding-right:60px;
+    padding-bottom:20px;
+    font-weight:600;
+    color:grey;
+}
+
+.terms{
+    text-align:center;
+    font-size:12px;
+    padding-left:30px;
+    padding-right:30px;
+    color:grey;
+}
+
+.getdata{
+    padding-top:20px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-bottom:18px;
+}
+
+.getinput{
+    padding-bottom:15px;
+}
+
+.submitbtn{
+    width:100%;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+
+.submitbtn input[type=submit]{
+    width:100%;
+    background-color:#192F59;
+    border:1px solid #192F59;
+    color:#fff;
+    cursor:pointer;
+    border-radius: 4px;
+    font-size:16px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+
+.submitbtn input[type=submit]:hover{
+    background-color:#3DB166;
+    border:1px solid #3DB166;  
+   
+}
+
+.getdata input[type=email]{
+    background-color:rgba(255,255,255,0.07);
+    height:36px;
+    width:100%;
+    font-size:14px;
+    padding:8px;
+    color:white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline:none;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+}
+
+.getdata input[type=number]{
+    background-color:rgba(255,255,255,0.07);
+    height:36px;
+    width:100%;
+    font-size:14px;
+    padding:8px;
+    color:white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline:none;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.getdata input[type=password]{
+    background-color:rgba(255,255,255,0.07);
+    height:36px;
+    width:100%;
+    font-size:14px;
+    padding:8px;
+    color:white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline:none;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+}
+
+.getdata input[type=text]{
+    background-color:rgba(255,255,255,0.07);
+    height:36px;
+    width:100%;
+    font-size:14px;
+    padding:8px;
+    color:white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline:none;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: grey;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: grey;
+  }
+
+
+.forgotpsw{
+    text-align:center;
+    font-size:14px;
+}
+
+.forgotpsw a{
+    color:grey;
+}
+
+.forgotpsw a:hover{
+    color:darkblue;
+}
+
+.newuser{
+    padding-top:40px;
+    text-align:center;
+    font-size:15px;
+}
+
+.newuser a{
+    color:#3DB166;
+}
+
+
+
+
+.errortext{
+    color:tomato;
+    padding:8px 10px;
+    text-align:center;
+    border-radius:5px;
+    margin-bottom:10px;
+    display:none;
+}
+
+
+.getinput select
+{
+    background-color:rgba(255,255,255,0.07);
+        height:40px;
+        width:100%;
+        font-size:14px;
+        padding:3px;
+        color:white;
+        border: 1px solid grey;
+        border-radius: 4px;
+        border-left:none;
+        border-top:none;
+        border-right:none;
+
+        outline:none;
+        cursor:pointer;
+}
+
+
+.getinput select option
+{
+    background-color:rgba(255,255,255,0.07);
+    font-size:14px;
+    padding:3px;
+    color:black;
+}
+
+/* Center the loader */
+#loader {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    
+  }
+
+
+

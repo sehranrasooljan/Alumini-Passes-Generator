@@ -1,0 +1,47 @@
+.welcome{
+    text-align:center;
+    margin-bottom:10px;
+    color:tomato;
+    font-size:17px;
+}
+
+.teacher .form p{
+    font-size:17px;
+    color:yellow;
+    margin-top:30px;
+    margin-left:36px;
+}
+
+.collage .form p{
+    font-size:17px;
+    color:yellow;
+    margin-top:30px;
+    margin-left:36px;
+}
+
+.loader {
+    border: 5px solid black;
+    border-radius: 50%;
+    border-top: 5px solid  #3DB166;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.details{
+  margin-top:20px;
+  margin-left:15px;
+  margin-right:15px;
+}

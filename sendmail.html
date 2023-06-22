@@ -1,0 +1,60 @@
+<form id="form">
+    <div class="field">
+      <label for="from_name">from_name</label>
+      <input type="text" name="from_name" id="from_name">
+    </div>
+    <div class="field">
+      <label for="name">name</label>
+      <input type="text" name="name" id="name">
+    </div>
+    <div class="field">
+      <label for="pass_id">pass_id</label>
+      <input type="text" name="pass_id" id="pass_id">
+    </div>
+    <div class="field">
+      <label for="link">link</label>
+      <input type="text" name="link" id="link">
+    </div>
+    <div class="field">
+      <label for="to">to</label>
+      <input type="text" name="to" id="to">
+    </div>
+  
+    <input type="submit" id="button" value="Send Email" >
+  </form>
+  
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('CjcSmJ4jrBz8hVfTr');
+
+    emailjs.send("service_7lnqlol","template_u8wis66",{
+    name: "Tejidner Singh",
+    pass_id: "12345",
+    link: "pcte.com",
+    from_name: "MR GANDHI",
+    to: "sehranpctebtech19cse@gmail.com",
+    });
+
+//     const btn = document.getElementById('button');
+
+// document.getElementById('form')
+//  .addEventListener('submit', function(event) {
+//    event.preventDefault();
+
+//    btn.value = 'Sending...';
+
+//    const serviceID = 'default_service';
+//    const templateID = 'template_dl7wzst';
+
+//    emailjs.sendForm(serviceID, templateID, this)
+//     .then(() => {
+//       btn.value = 'Send Email';
+//       alert('Sent!');
+//     }, (err) => {
+//       btn.value = 'Send Email';
+//       alert(JSON.stringify(err));
+//     });
+// });
+  </script>
