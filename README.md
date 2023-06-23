@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Sehran Rasool Jan</h1>
 <h3 align="center">A Passionate Developer From Kashmir, India. </h3>
-<h4> Project Small Description </h4>
+<h4> Project Description </h4>
 <p>Welcome to our Alumni Passes Generator, a project website that provides a convenient and streamlined process for alumni to obtain their official passes. Designed with alumni in mind, our website offers a user-friendly interface and a secure platform to request and generate alumni passes from your educational institution or alumni association</p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sehranrasooljan&label=Profile%20views&color=0e75b6&style=flat" alt="sehranrasooljan" /> </p>
 
